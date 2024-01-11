@@ -4,14 +4,25 @@ title: About
 cover: true
 ---
 
-Hey everyone! I am Kieran, currently a ML Research Intern at EMBL-EBI, master's student in Computational Biology at Cambridge and fascinated by bioinformatics and ML for biology. On this webpage you find my blog where I comment on new papers, developments and interesting experiences I have. 
+# SDEs and Diffusion Models - Kieran Didi and Francisco Vargas, R255 module Cambridge University, Lent 2024
 
-Besides my research and studies, I love writing, reading, every sport that involves a ball and doing Blender visualisations such as the picture you see below showing K-Ras with an inhibitor or this video showing a [penicillin-binding protein](https://pdb101.rcsb.org/motm/29).
+Hey everyone! This is a course about the theory of SDEs and how it can be applied to diffusion models. We will introduce the foundations of Ito Calculus and apply them to diffusion processes within generative modelling, sampling and data assimilation.
 
+The modules in this course are the following:
 
-![Blender visualisation of Kras inhibitor](/assets/img/blog/kras-compressed.png)
+| Topic 	| Content                         	|
+|------	|--------------------------------	|
+| 1    	| Measure Theory for Probability, Ito Integrals, Martingales                   	|
+| 2    	| Forward (FPK) and Backward Kolmogorov Equations, Infinitesimal Generator                          	|
+| 3    	| Ito's Lemma 	|
+| 4    	| Linear SDEs and the OU process  	|
+| 5    	| Time reversal               	|
+| 6    	| Doob's h-transform and conditioning SDEs                  	|
+| 7    	| Probability flow ODE and flow matching                  	|
+| 8    	| Girsanov's Theorem, KL divergence in path space                       	|
+| 9    	| Half Bridges and Stochastic Control                     	| 
+| 10   	| Schroedinger Bridges             	| 
 
-<div class="sixteen-nine">
-  <iframe src="https://player.vimeo.com/video/768921351?h=7ab3fb6425" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+These topics will be covered in 4 sessions, with the first two being 90 minutes and the last two being 60 minutes. 
+
 
