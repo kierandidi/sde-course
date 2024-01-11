@@ -20,17 +20,16 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Kieran Didi
+title:                 SDEs & Diffusion Processes
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Master's student interested in Protein Design, AI and bioinformatics. 
-  Blogging about papers, tools and experiences in the CompBio space.
+  Course about SDEs and Diffusion Processes with applications in generative modelling and other domains.
 
 
 # A shorter description for the sidebar.
-tagline:               AI \| CompBio \| Healthcare
+tagline:               SDEs \| Scores \| Stochastics
 
 # A list of keywords for your blog
 keywords:              []
@@ -38,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/Kieran_Didi_Circle.png
+logo:                  /assets/img/diffusion_logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -55,16 +54,16 @@ author:
 menu:
   - title:             About
     url:               /index/
-  - title:             Blog
+  - title:             Lessons
     url:               /blog/
-  - title:             Projects
+  - title:             Exercises
     url:               /projects/
-  - title:             Publications
+  - title:             Resources
     url:               /publications/
-  - title:             Résumé
-    url:               /resume/
-  - title:             Tags
-    url:               /tags/
+  # - title:             Résumé
+  #   url:               /resume/
+  # - title:             Tags
+  #   url:               /tags/
 
 
 # Add links to the footer.
