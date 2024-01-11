@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Exercise 1a - How do proteins digest food but not themselves?
-caption: Learn more about protein function
+title: Exercise 1 - Solving SDEs
+caption: How to deal with noise
 description: >
-  In this exercise you will look at chymotrypsin and see how it works.
+  In this exercise you will take a look at the differences and similarities between ODEs and SDEs.
 date: '02-08-2023'
 image: 
   path: /assets/img/exercises/chymotrypsin-min.png
@@ -13,5 +13,5 @@ image:
 sitemap: false
 ---
 
-# Exercise 1a - How do proteins digest food but not themselves?
+# Exercise 1 - Solving SDEs
 
