@@ -3,4 +3,4 @@ layout: welcome
 title: About
 ---
 
-I am Kieran!
+This is a course about SDEs!

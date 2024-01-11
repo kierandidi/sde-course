@@ -1,57 +1,47 @@
 ---
 layout: welcome
-title: Publications
+title: Resources
 buttons:
   print: false
-  pdf: /assets/Publication_List_Kieran_Didi.pdf
 ---
-<!-- PDF version available [here]({{ site.baseurl }}/assets/Publication_List_Kieran_Didi.pdf){:.no-push-state}. -->
-## Publications 
+Here you will find resources relevant to the course, first some general ones and after that additional resources to some of the specific topics we discuss in the course.
 
-### Pre-Prints
-- [BioModelsML: Building a FAIR and reproducible collection of machine learning models in life sciences and medicine for easy reuse](https://www.biorxiv.org/content/10.1101/2023.05.22.540599v1), Divyang Deep Tiwari, Nils Hoffmann, **Kieran Didi**, Sumukh Deshpande, Sucheta Ghosh, Tung V. N. Nguyen, Karthik Raman, Henning Hermjakob, Rahuman S Malik Sheriff, **biorxviv**, 05/2023
-- [AbNatiV: VQ-VAE-based assessment of antibody and nanobody nativeness for hit selection, humanisation, and engineering](https://www.biorxiv.org/content/10.1101/2023.04.28.538712v2), Aubin Ramon, Montader Ali, Misha Atkinson, Alessio Saturnino, **Kieran Didi**, Cristina Visentin, Stefano Ricagno, Xing Xu, Matthew Greenig, Pietro Sormanni, **biorxviv**, 04/2023
+### Books
+- [Oksendal - Stochastic Differential Equations](http://www.stat.ucla.edu/~ywu/research/documents/StochasticDifferentialEquations.pdf), formal treatment and introduction to the Ito Integral
+- [Särkkä & Solin - Applied Stochastic Differential Equations](https://github.com/AaltoML/SDE), quick usage / intuition of the SDE theorems and properties 
+- [Pavliotis - Stochastic Processes and Applications](https://www.ma.imperial.ac.uk/~pavl/PavliotisBook.pdf), physicsy / functional analysis type of introduction 
+- [Von Kampen - Stochastic Processes in Physics and Chemistry](https://vattay.web.elte.hu/lectures/Non-equilibrium%20Statistical%20Physics/VanKampen.pdf), physics/chemistry focused introduction
 
-### Under review
-- Structure-based Drug Design with Equivariant Diffusion Models, Arne Schneuing, Yuanqi Du, Charles Harris, **Kieran Didi**, Arian Jamasb, Ilia Igashov, weitao Du, Tom Blundell, Pietro Liò, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia
+### Publications
 
-### Peer-reviewed
-- A framework for conditional diffusion modelling with applications in motif scaffolding for protein design, **Kieran Didi**, Francisco Vargas, Simon Mathis, Vincent Dutordoir, Emile Mathieu, Urszula Julia Komorowska, Pietro Lio, **NeurIPS AI4D3 2023 (Oral Presentation)**, 11/2023
-- [Benchmarking Generated Poses: How Rational is Structure-based Drug Design with Generative Models?](https://arxiv.org/abs/2308.07413), Charles Harris, **Kieran Didi**, Arian Jamasb, Chaitanya Joshi, Simon Mathis, Pietro Lio, Tom Blundell, **NeurIPS MLSB 2023 (Oral Presentation)**, 11/2023
-- Modelling biology in novel ways - an AI-first course in Structural Bioinformatics, **Kieran Didi**, Charles Harris, Pietro Liò, Rainer Beck, **NeurIPS AI4Science 2023**, 10/2023 
-- Evaluating Representation Learning on the Protein Structure Universe, Arian Rokkum Jamasb, Alex Morehead, Zuobai Zhang, Chaitanya Joshi, **Kieran Didi**, Simon Mathis, Charles Harris, Jian Tang, Jianlin Cheng, Pietro Liò, Tom Blundell, **NeurIPS GenBio 2023**,10/2023
-- [Flexible Small-Molecule Design and Optimization with Equivariant Diffusion Models](https://drive.google.com/file/d/11kSYs6WYAg2_D0HtF8NxG7e6dUGQcVaL/view), Charles Harris, **Kieran Didi**, Arne Schneuing, Yuanqi Du, Arian Jamasb, Michael Bronstein, Bruno Correia, Pietro Liò, Tom Blundell, **ICLR MLDD 2023**, 03/2023
-- [Biomolecular condensate phase diagrams with a combinatorial microdroplet platform](https://www.nature.com/articles/s41467-022-35265-7), William E. Arter, Runzhang Qi, Nadia A. Erkamp, Georg Krainer, **Kieran Didi**, Timothy J. Welsh, Julia Acker, Jonathan Nixon-Abell, Seema Qamar, Jordina Guillén-Boixet, Titus M. Franzmann, David Kuster, Anthony A. Hyman, Alexander Borodavka, Peter St George-Hyslop, Simon Alberti & Tuomas P. J. Knowles, **Nature Communications**, 12/2022
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239.pdf)
+- [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)
+- [Simulating Diffusion Bridges with Score Matching](https://arxiv.org/pdf/2111.07243.pdf)
+- [First Hitting Diffusion Models for Generating Manifold, Graph and Categorical Data](https://arxiv.org/pdf/2209.01170.pdf)
+- [Denoising Diffusion Samplers](https://openreview.net/forum?id=8pvnfTAbu1f)
+- [Solving Schrödinger Bridges via Maximum Likelihood](https://arxiv.org/abs/2106.02081)
 
-### Book Chapters
+### Practicals/Notebooks
+- [Prince - Understanding Deep Learning Textbook, notebooks for diffusion chapter](https://github.com/udlbook/udlbook/tree/main/Notebooks/Chap18)
+- [CVPR 2022 Tutorial - Denoising Diffusion-based Generative Modeling: Foundations and Applications](https://cvpr2022-tutorial-diffusion-models.github.io/)
+- [Yang Song SDE paper codebase](https://github.com/yang-song/score_sde_pytorch), includes pedagogical notebook
 
-- *Generative Models in Bioinformatics*, invited book chapter in Encyclopedia of Bioinformatics and Computational Biology, under review, 01/2023
-- [The Art of Molecular Programming](https://molecularprogrammers.org/), textbook, active as editor
+### Websites
+- [Applied SDE Course by Särkkä & Solin](https://mycourses.aalto.fi/course/view.php?id=27251#section-0)
 
-## Conference Presentations
-- [Where do we stand in protein and ligand design?](https://www.embl.org/about/info/course-and-conference-office/events/csb23-01/) (oral presentation), Computational Structural Biology Conference, EMBL Heidelberg (Germany), 12/2023
-- [Conditional Diffusion Models for Protein Design via Doob’s h-transform](https://www.moml.mit.edu/) (poster), MoML Conference, MIT (US), 11/2023
-- [Reality Check - Evaluating Generative Models for Protein and Ligand Design](https://www.broadinstitute.org/machine-learning-drug-discovery-symposium/machine-learning-drug-discovery-symposium) (poster), Machine Learning in Drug Discovery Symposium, Broad Institute (US), 10/2023
-- [Accessible AMR-detection tools for clinicians via cloud-based bioinformatics](https://pheedloop.com/ABACBS2022/site/CI) (oral presentation), Clinical Informatics Symposium, Melbourne (Australia), 12/2022
-- [sINSIDER: a cloud-native modular platform for kmer-based genomic analysis](https://www.abacbs.org/conference2022) (oral presentation), ABACBS Conference, Melbourne (Australia), 11/2022
-- [Moving bioinformatics to the cloud](https://escamps.org/) (keynote presentation), eSCAMPS Symposium, Cambridge (UK), 09/2022
-- [Detecting DNA integration via HPC bioinformatics pipeline](https://na.eventscloud.com/website/36005/home/) (poster),R&I Conference, Sydney (Australia), 08/2022
-
-## Reviewing
-
-ICML CompBio 2023, NeurIPS AI4Science 2023, NeurIPS GenBio 2023, MoML@MIT 2023
-
-## Teaching
-- [SDEs and Diffuion Processes](https://sde-diffusion.netlify.app/), lecture, Cambridge University (MPhil Advanced Computer Science), 01/2024
-- [Structural Bioinformatics](https://structural-bioinformatics.netlify.app/), lecture, Heidelberg University (BSc Biochemistry), 10/2023
-- [Advanced Python for Scientists](https://github.com/kierandidi/advanced_python_for_scientists), lecture, Heidelberg University, 06/2023
-- [Algorithms II](https://www.cl.cam.ac.uk/teaching/2223/Algorithm2/), supervising course on data structures and graph algorithms, Cambridge University, 03-05/2023
-- [Algorithms I](https://www.cl.cam.ac.uk/teaching/2223/Algorithm1/), Cambridge University, 01-03/2023
-- *MLOps with PyTorch Lightning and W&B*, conceptualised and lecture workshop, ML Forum CSIRO Australia, 01/2023
-- [Python for Scientists](https://github.com/kierandidi/python_for_scientists), lecture, Heidelberg University, 11/2022
-- [Python Best Practices](https://ssciwr.github.io/Python-best-practices-course/), workshop (co-host), Scientific Software Center Heidelberg, 11/2022
-- [Deep Learning with PyTorch](https://ssciwr.github.io/lunch-time-python/#:~:text=Lunch%20Time%20Python%20aims%20at,will%20be%20made%20available%20afterwards.), Lunch Time Python workshop, Scientific Software Center Heidelberg, 10/2022
-- [Python for Biochemists](https://github.com/kierandidi/Python_for_Biochemists), lecture, Heidelberg University, 03/2022
+### Measure Theory Resources
+- [Lecture on measure and integration](https://cambridgelectures.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e599c7d-1d76-4316-a312-adbf01091488&query=4M24), Cambridge-only access
+- [Notebook with DCT example](https://github.com/alexglyndavies/4M24/blob/master/Lecture_03.ipynb)
+- [YouTube Playlist with Measure Theory Concepts](https://www.youtube.com/watch?v=xZ69KEg7ccU&list=PLBh2i93oe2qvMVqAzsX1Kuv6-4fjazZ8j)
 
 
+### Convergence of the OU process - Additional Resources
 
+For this we use the mostly [Pavliotis book](https://www.ma.imperial.ac.uk/~pavl/PavliotisBook.pdf)[2]
+1. OU process Intro: Section 4.2 Pavliotis
+2. OU process and Hermite Polynomials: Section 4.4 Pavliotis
+3. OU process Mixing: Chapter 2.7.1 and 2.7.2 [Bakry book](https://www.hse.ru/data/2016/11/24/1113029204/bok%253A978-3-319-00227-9.pdf)[1]
+4. Over-dampened Langevin dynamics (equilibrium methods): Section 4.5 Pavliotis
+
+[1] D. Bakry, I. Gentil, and M. Ledoux. Analysis and geometry of Markov diffusion operators. Vol. 348. Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences]. Springer, Cham, 2014, pp. xx+552
+[2] Pavliotis, G.A., 2014. Stochastic processes and applications: diffusion processes, the Fokker-Planck and Langevin equations (Vol. 60). Springer.

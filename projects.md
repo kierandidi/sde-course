@@ -1,8 +1,7 @@
 ---
 layout: projects
-title: Projects
+title: Exercises
 show_collection: projects
 description: >
-  Here I will post projects I was or still am involved in
-no_groups: true
+  Here you will find the projects you will work on for this course.
 ---
