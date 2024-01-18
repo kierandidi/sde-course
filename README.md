@@ -1,5 +1,7 @@
 # SDEs and Diffusion Models - Kieran Didi and Francisco Vargas, R255 module Cambridge University, Lent 2024
 
+[Link to this website](https://sde-course.netlify.app/)
+
 Hey everyone! This is a course about the theory of SDEs and how it can be applied to diffusion models. We will introduce the foundations of Ito Calculus and apply them to diffusion processes within generative modelling, sampling and data assimilation.
 
 The modules in this course are the following:
